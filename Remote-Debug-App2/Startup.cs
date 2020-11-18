@@ -19,6 +19,7 @@ namespace Remote_Debug_App2
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            new Practice4AppRepository();
         }
 
         public IConfiguration Configuration { get; }
